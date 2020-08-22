@@ -2,8 +2,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    padding: 0;
-    margin: 0;
+    padding: 10;
+    margin: 5;
   }
   nav a:hover {
     color: #0000dd; /* Hex colour. */
@@ -36,13 +36,6 @@
   .syn { background-color: darkgoldenrod; }
   .ch1 { background-color: darkmagenta; }
   .ch2 { background-color: darkturquoise; }
-  /* .ch3 { background-color: blue; }
-  .ad { background-color: rgb(122, 218, 45); }
-  .rev { background-color: rgb(25, 92, 40); }
-  .author { background-color: rgb(43, 48, 54); }
-  .stat { background-color: rgb(175, 192, 199); }
-  .extra { background-color: rgb(87, 56, 9); } */
-  /* #contact-form { background-color: yellow; } */
   footer { background-color: plum; }
   
   
@@ -83,14 +76,9 @@
       "table-c ch1"
       "table-c ch2"
       "footer footer";
-      grid-auto-rows: auto;
-  }
-  
-  /* h2 {
-    grid-column-start: 1;
-  grid-column-end: 2;
-  } */
-  
+      /* grid-auto-rows: auto; */
+  }  
+
   /* Name each section of our grid, so we can easily place our elements on it! */
   .grid-container { grid-area: logo; }
   /* #search-form { grid-area: search; } */
@@ -99,12 +87,6 @@
   .syn { grid-area: syn; }
   .ch1 { grid-area: ch1; }
   .ch2 { grid-area: ch2; }
-  /* .ch3 { grid-area: ch3; }
-  .ad { grid-area: ad; }
-  .rev { grid-area: rev; }
-  .author { grid-area: author;}
-  .stat { grid-area: stat;}
-  .extra { grid-area: extra;} */
   footer{ grid-area: footer;}
   /* stop HERE FIRST COMMIT
   /* Tablet */
